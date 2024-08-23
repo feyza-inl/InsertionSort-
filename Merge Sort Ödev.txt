@@ -1,0 +1,29 @@
+[16,21,11,8,12,22] -> Merge Sort
+Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+
+
+
+Merge Sort : 	Böl Parçala Yönet
+
+0.Böl
+
+1. [16,21,11,8,12,22]
+
+2. [16,21,11]  [8,12,22]
+
+3.   sol= [16] [21,11]        sağ= [8] [12,22]
+
+4.   sol= [21] [11]           sağ= [12] [22]
+
+5.Birleştir
+
+6.  sol= [11,21]              sağ= [12,22]
+
+7.  sol= [11,16,21]           sağ= [8,12,22]
+
+8.  [8,11,12,16,21,22]
+        
+
+Big-O gösterimini yazınız.
+
+O(nlogn)
